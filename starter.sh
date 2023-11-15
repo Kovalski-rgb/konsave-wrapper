@@ -42,6 +42,7 @@ if [ -n "$uninstall" ]; then
   cd .. && rm -rf konsave-wrapper
   sed -i -e "/konsave()/,+2d" ~/.bashrc
   sed -i -e "/konsave()/,+2d" ~/.zshrc
+  eval cd $callPath
   exit 0
 fi
 
