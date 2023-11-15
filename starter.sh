@@ -1,5 +1,4 @@
 set -e
-installDir="~/.config/konsave/konsave-wrapper"
 callPath=$PWD
 kommand="/usr/bin/konsave"
 helpRan=

@@ -7,6 +7,9 @@ fi
 mkdir -p postHooks/
 mkdir -p hooks/
 eval mkdir -p "${installDir}" 
+
+sed -i '1iinstallDir="'"${installDir}"'konsave-wrapper\"' starter.sh
+
 eval mv "../konsave-wrapper ${installDir}" 
 
 echo "konsave-wrapper installed at ${installDir}"
