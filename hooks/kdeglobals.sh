@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="kdeglobals"
 echo "$fileName hook called!"
 rootPath=

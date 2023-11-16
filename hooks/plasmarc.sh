@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="plasmarc"
 echo "$fileName hook called!"
 rootPath=

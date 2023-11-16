@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="plasma-org.kde.plasma.desktop-appletsrc"
 echo "$fileName hook called!"
 rootPath=

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="katerc"
 echo "$fileName hook called!"
 rootPath=

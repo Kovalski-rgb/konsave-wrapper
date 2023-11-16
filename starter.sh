@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -e
 callPath=$PWD
 kommand="/usr/bin/konsave"

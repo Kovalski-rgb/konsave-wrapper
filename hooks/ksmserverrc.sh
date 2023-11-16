@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="ksmserverrc"
 echo "$fileName hook called!"
 rootPath=

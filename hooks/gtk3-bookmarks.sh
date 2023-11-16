@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fileName="bookmarks"
 echo "gtk $fileName hook called!"
 rootPath=
