@@ -13,4 +13,4 @@ sed -i '1iinstallDir="'"${installDir}"'konsave-wrapper\"' starter.sh
 eval mv "../konsave-wrapper ${installDir}" 
 
 echo "konsave-wrapper installed at ${installDir}"
-eval rm "${installDir}/installer.sh"
+#eval rm "${installDir}installer.sh"

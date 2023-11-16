@@ -1,3 +1,7 @@
+installDir="~/.config/konsave/konsave-wrapper"
+installDir="~/.config/konsave/konsave-wrapper"
+installDir="~/.config/konsave/konsave-wrapper"
+installDir="~/.config/konsave/konsave-wrapper"
 set -e
 callPath=$PWD
 kommand="/usr/bin/konsave"
@@ -38,9 +42,9 @@ done
 
 if [ -n "$uninstall" ]; then
   eval cd $installDir
-  cd .. && rm -rf konsave-wrapper
   sed -i -e "/konsave()/,+2d" ~/.bashrc
   sed -i -e "/konsave()/,+2d" ~/.zshrc
+  cd .. && rm -rf "konsave-wrapper"
   eval cd $callPath
   exit 0
 fi
