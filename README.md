@@ -5,8 +5,7 @@ clone this project, then run the following command for the initial setup
 ### for zsh users
 ```shell
 git clone https://github.com/Kovalski-rgb/konsave-wrapper.git
-cd konsave-wrapper
-./installer
+cd konsave-wrapper && sh installer.sh
 ```
 
 All files will be stored under `.config/konsave/`
