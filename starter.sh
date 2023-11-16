@@ -1,7 +1,3 @@
-installDir="~/.config/konsave/konsave-wrapper"
-installDir="~/.config/konsave/konsave-wrapper"
-installDir="~/.config/konsave/konsave-wrapper"
-installDir="~/.config/konsave/konsave-wrapper"
 set -e
 callPath=$PWD
 kommand="/usr/bin/konsave"
